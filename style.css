@@ -1,0 +1,46 @@
+.container{
+    max-width: 450px;
+    width: 100%;
+}
+.tasks{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+.task{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 10px 24px;
+    margin-top: 20px;
+   
+
+}
+#list{
+    list-style: none;
+    margin: 20px 70px ;
+    padding-top: 15px;
+   padding-bottom: 5px;
+  
+  
+ 
+    
+
+}
+.todo-item {
+    margin-bottom: 20px; 
+    margin-left: 10px;
+    background-color: aqua;
+    padding-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    margin-left: 190px; 
+  }
